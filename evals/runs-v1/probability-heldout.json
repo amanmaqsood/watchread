@@ -1,0 +1,372 @@
+{
+  "companion": {
+    "title": "Two coin tosses and a stubborn misconception",
+    "subtitle": "Independence, the gambler's fallacy, and counting ordered outcomes for a fair coin",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "Fair coins have no memory",
+        "goal": "Understand independence and why past tosses do not make an outcome 'due'.",
+        "claims": [
+          {
+            "id": "c1",
+            "text": "For an ideal fair coin, heads and tails each have probability one half on any single toss.",
+            "cueIds": [
+              "cue-1"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 states heads and tails each have probability one half on a toss for an ideal fair coin."
+          },
+          {
+            "id": "c2",
+            "text": "Independence means knowing one toss's result does not change the probability distribution for the next toss.",
+            "cueIds": [
+              "cue-1"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 gives exactly this definition of independence."
+          },
+          {
+            "id": "c3",
+            "text": "Saying tails is 'due' after three heads in a row is a mistake for an independent fair coin; the next toss still has a one-half chance of tails.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 quotes the student's 'due' claim, calls it a mistake, and states tails remains one half."
+          },
+          {
+            "id": "c4",
+            "text": "The coin has no memory of earlier outcomes.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 states the coin has no memory of earlier outcomes."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q1",
+            "concept": "Independence and the 'due' fallacy",
+            "question": "A fair coin, tossed independently, lands heads three times in a row. What is the probability of tails on the next toss?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "Greater than one half, because tails is due.",
+                "explanation": "This is the misconception the source rejects: the coin has no memory, so earlier heads do not raise the chance of tails.",
+                "cueIds": [
+                  "cue-2"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "Exactly one half.",
+                "explanation": "Correct. Independence means earlier results do not change the next toss's distribution; tails remains one half.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-2"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Less than one half, because the coin is 'on a heads streak'.",
+                "explanation": "Also a memory-based error; the source's fair independent model assigns one half regardless of prior streaks.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-2"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-1",
+              "cue-2"
+            ],
+            "recovery": {
+              "question": "What does independence of tosses mean, according to the source?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Knowing one toss's result does not change the probabilities for the next toss."
+                },
+                {
+                  "id": "b",
+                  "text": "Heads and tails must alternate over time."
+                },
+                {
+                  "id": "c",
+                  "text": "Each toss cancels out the previous toss."
+                }
+              ],
+              "correctId": "a",
+              "explanation": "cue-1 defines independence as knowing one result not changing the next toss's probability distribution.",
+              "cueIds": [
+                "cue-1"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch2",
+        "title": "Counting ordered outcomes",
+        "goal": "Compute probabilities for two tosses by listing the four ordered outcomes.",
+        "claims": [
+          {
+            "id": "c5",
+            "text": "Two independent fair tosses have four ordered outcomes—HH, HT, TH, TT—each with probability one quarter.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-3 lists the four ordered outcomes and assigns each probability one quarter."
+          },
+          {
+            "id": "c6",
+            "text": "Order matters when listing the elementary outcomes.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-3 states order matters when listing elementary outcomes."
+          },
+          {
+            "id": "c7",
+            "text": "Exactly one head has probability one half because HT and TH are two distinct outcomes; counting only one would miss half the favorable cases.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-4 gives HT and TH as distinct, probability one half, and warns that counting one misses half the favorable outcomes."
+          },
+          {
+            "id": "c8",
+            "text": "Two heads has probability one quarter, and at least one head has probability three quarters.",
+            "cueIds": [
+              "cue-4",
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-4 gives two heads as one quarter; cue-5 gives at least one head as three quarters."
+          },
+          {
+            "id": "c9",
+            "text": "At least one head can also be found by subtracting the probability of no heads (TT) from one.",
+            "cueIds": [
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-5 describes subtracting the probability of no heads (tails-tails) from one."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q2",
+            "concept": "Probability of exactly one head in two tosses",
+            "question": "In two independent fair tosses, what is the probability of exactly one head?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "One quarter",
+                "explanation": "This counts only one of HT or TH, missing half the favorable outcomes, as the source warns.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "One half",
+                "explanation": "Correct. HT and TH are two distinct outcomes of four, giving one half.",
+                "cueIds": [
+                  "cue-3",
+                  "cue-4"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Three quarters",
+                "explanation": "That is the probability of at least one head, which also includes HH.",
+                "cueIds": [
+                  "cue-5"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-3",
+              "cue-4"
+            ],
+            "recovery": {
+              "question": "Which outcomes make up the event 'at least one head' in two tosses, and what is its probability?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "HH, HT, TH; three quarters"
+                },
+                {
+                  "id": "b",
+                  "text": "HT and TH only; one half"
+                },
+                {
+                  "id": "c",
+                  "text": "HH only; one quarter"
+                }
+              ],
+              "correctId": "a",
+              "explanation": "cue-5 lists HH, HT, TH for at least one head, probability three quarters; equivalently one minus P(TT).",
+              "cueIds": [
+                "cue-5",
+                "cue-3"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch3",
+        "title": "What a model does and does not promise",
+        "goal": "Distinguish model assumptions from guarantees about small samples.",
+        "claims": [
+          {
+            "id": "c10",
+            "text": "A probability model describes assumptions, not a guarantee that every small batch matches expected proportions.",
+            "cueIds": [
+              "cue-6"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-6 states a model describes assumptions, not a guarantee for small batches."
+          },
+          {
+            "id": "c11",
+            "text": "Four tosses need not contain exactly two heads.",
+            "cueIds": [
+              "cue-6"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-6 states four tosses do not have to contain exactly two heads."
+          },
+          {
+            "id": "c12",
+            "text": "If the coin is biased or tosses are dependent, the fair independent model must be reconsidered.",
+            "cueIds": [
+              "cue-6"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-6 states the model must be reconsidered if the coin is biased or tosses are dependent."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q3",
+            "concept": "Model assumptions vs. small-sample guarantees",
+            "question": "A fair coin is tossed four times. What does the model say about the number of heads?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "It guarantees exactly two heads.",
+                "explanation": "The source says a model gives assumptions, not guarantees; four tosses need not have exactly two heads.",
+                "cueIds": [
+                  "cue-6"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "It does not guarantee exactly two heads; small batches can deviate from expected proportions.",
+                "explanation": "Correct, matching the source's statement about models and small batches.",
+                "cueIds": [
+                  "cue-6"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Any deviation from two heads proves the coin is biased.",
+                "explanation": "The source says deviation in a small batch is possible under the fair model; bias or dependence would call for reconsidering the model, but is not proven by one small batch.",
+                "cueIds": [
+                  "cue-6"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-6"
+            ],
+            "recovery": {
+              "question": "When should the fair independent coin model be reconsidered, per the source?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "If the coin is biased or tosses are dependent."
+                },
+                {
+                  "id": "b",
+                  "text": "Whenever four tosses do not give exactly two heads."
+                },
+                {
+                  "id": "c",
+                  "text": "Never; the model is always correct."
+                }
+              ],
+              "correctId": "a",
+              "explanation": "cue-6 names bias or dependence as reasons to reconsider the model, while noting small batches need not match expectations.",
+              "cueIds": [
+                "cue-6"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Independence",
+        "definition": "Knowing the result of one toss does not change the probability distribution for the next toss.",
+        "cueIds": [
+          "cue-1"
+        ]
+      },
+      {
+        "term": "Ordered outcome",
+        "definition": "An elementary result of two tosses where order matters, e.g., HT and TH are distinct; each of the four has probability one quarter.",
+        "cueIds": [
+          "cue-3"
+        ]
+      },
+      {
+        "term": "Complement method",
+        "definition": "Finding the probability of an event by subtracting the probability of its opposite from one, e.g., P(at least one head) = 1 − P(TT).",
+        "cueIds": [
+          "cue-5"
+        ]
+      }
+    ]
+  },
+  "run": {
+    "id": "ca98bec8-afce-48ad-87f1-da665af89f83",
+    "provider": "Local Claude",
+    "model": "claude-fable-5-1",
+    "sourceHash": "2f7cd5d8c7dead5df6bfbc1476d1bd202dacd0142295281f4a0c559f7f58f206",
+    "promptVersion": "watchread-1",
+    "createdAt": "2026-09-20T07:53:25.375Z",
+    "durationMs": 51451,
+    "inputTokens": 6817,
+    "outputTokens": 4237,
+    "requests": 2,
+    "reviewer": "Model support review; not independent factual verification"
+  }
+}

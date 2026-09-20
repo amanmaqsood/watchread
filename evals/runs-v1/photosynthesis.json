@@ -1,0 +1,394 @@
+{
+  "companion": {
+    "title": "How Photosynthesis Actually Works",
+    "subtitle": "Following matter and energy from air, water, and light into a living plant",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "Where a Plant's Matter and Energy Come From",
+        "goal": "Separate the sources of atoms from the source of energy, and understand the leaf as a working system.",
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The carbon in a tree's organic molecules comes mainly from carbon dioxide in the air, not from the soil.",
+            "cueIds": [
+              "cue-1",
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-1 says carbon comes mainly from carbon dioxide in the air, with soil as a common but incorrect first answer; cue-5 confirms soil supplies minerals and water instead."
+          },
+          {
+            "id": "c2",
+            "text": "Carbon dioxide and water provide the atoms, while light supplies energy and does not itself turn into carbon.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-2 states carbon dioxide and water provide atoms, light supplies energy, and light is not an ingredient that turns into carbon atoms."
+          },
+          {
+            "id": "c3",
+            "text": "Stomata let carbon dioxide enter the leaf, water arrives through transport tissues, and chloroplasts hold the machinery that captures light.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-3 describes stomata admitting CO2, water arriving via transport tissues, and chloroplasts containing light-capturing machinery."
+          },
+          {
+            "id": "c4",
+            "text": "Leaves often look green because chlorophyll absorbs red and blue light more strongly, so a greater share of green light is reflected or transmitted.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-4 states chlorophyll absorbs red and blue more strongly and a greater proportion of green is reflected or transmitted."
+          },
+          {
+            "id": "c5",
+            "text": "Opening stomata admits carbon dioxide but lets water vapor escape, so gas exchange and water availability are linked.",
+            "cueIds": [
+              "cue-10"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-10 describes the stomatal trade-off and the link between water availability and gas exchange."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q1",
+            "concept": "Source of a plant's carbon",
+            "question": "Where does most of the carbon in a tree's organic material come from?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "Minerals absorbed from the soil",
+                "explanation": "Roots do take up water and minerals, but the source says carbon comes mainly from carbon dioxide in the air.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-5"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "Carbon dioxide in the air",
+                "explanation": "Correct: the source traces the carbon in organic molecules to atmospheric CO2 entering through stomata.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-6"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Light energy converted into carbon atoms",
+                "explanation": "Light supplies energy only; the source stresses it is not an ingredient that becomes carbon.",
+                "cueIds": [
+                  "cue-2"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-1",
+              "cue-2",
+              "cue-5"
+            ],
+            "recovery": {
+              "question": "A single carbon atom ends up inside a plant's organic molecule. Which pathway does the source describe for it?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It enters as CO2 through a stoma and is fixed into an organic molecule"
+                },
+                {
+                  "id": "b",
+                  "text": "It is absorbed by roots dissolved in soil water"
+                },
+                {
+                  "id": "c",
+                  "text": "It is created when chlorophyll absorbs red light"
+                }
+              ],
+              "correctId": "a",
+              "explanation": "Cue-6 follows a carbon atom from CO2 through a stoma into an organic molecule; this journey is carbon fixation.",
+              "cueIds": [
+                "cue-6",
+                "cue-1"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch2",
+        "title": "Two Stories: Oxygen and Carbon",
+        "goal": "Keep straight which ingredient does what: water is split for electrons and oxygen, carbon dioxide supplies carbon.",
+        "claims": [
+          {
+            "id": "c6",
+            "text": "The oxygen gas released during photosynthesis comes from water split in the light-dependent reactions, not from carbon dioxide.",
+            "cueIds": [
+              "cue-7",
+              "cue-9"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-7 states released oxygen comes from water split in the light-dependent reactions, not from splitting CO2; cue-9 warns against reading it off the equation."
+          },
+          {
+            "id": "c7",
+            "text": "Carbon dioxide's carbon is incorporated into organic molecules through the Calvin cycle.",
+            "cueIds": [
+              "cue-8"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-8 states CO2's carbon is incorporated into organic molecules through the Calvin cycle."
+          },
+          {
+            "id": "c8",
+            "text": "Water supplies electrons for the light reactions, while carbon dioxide supplies carbon for fixation.",
+            "cueIds": [
+              "cue-8",
+              "cue-11"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-8 gives this exact distinction; cue-11 repeats it."
+          },
+          {
+            "id": "c9",
+            "text": "A summary equation shows overall inputs and outputs but not the route each atom takes.",
+            "cueIds": [
+              "cue-9"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-9 states a summary equation shows overall substances consumed and produced but not each atom's route."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q2",
+            "concept": "Source of released oxygen",
+            "question": "According to the source, where does the oxygen gas released by a leaf come from?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "Splitting carbon dioxide molecules",
+                "explanation": "CO2 contains oxygen atoms, which makes this tempting, but the source says released O2 is not produced by simply splitting CO2.",
+                "cueIds": [
+                  "cue-7",
+                  "cue-9"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "Water split in the light-dependent reactions",
+                "explanation": "Correct: water is split, providing electrons and protons and releasing oxygen.",
+                "cueIds": [
+                  "cue-7"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Oxygen taken in through the stomata",
+                "explanation": "Stomata are described as the entry route for carbon dioxide; the source does not describe oxygen release as re-emitting absorbed oxygen.",
+                "cueIds": [
+                  "cue-3",
+                  "cue-7"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-7",
+              "cue-8",
+              "cue-9"
+            ],
+            "recovery": {
+              "question": "Which statement correctly pairs an ingredient with its role in photosynthesis?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Carbon dioxide supplies the electrons used in the light reactions"
+                },
+                {
+                  "id": "b",
+                  "text": "Water supplies electrons in the light reactions; carbon dioxide supplies carbon for fixation"
+                },
+                {
+                  "id": "c",
+                  "text": "Light supplies the carbon that builds organic molecules"
+                }
+              ],
+              "correctId": "b",
+              "explanation": "Cue-8 and cue-11 state that water is split for electrons and oxygen while CO2 provides carbon; light contributes only energy.",
+              "cueIds": [
+                "cue-8",
+                "cue-11",
+                "cue-2"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch3",
+        "title": "Inside the Chloroplast",
+        "goal": "Locate the two connected sets of reactions and understand how their products link.",
+        "claims": [
+          {
+            "id": "c10",
+            "text": "Light-dependent reactions occur in the thylakoid membranes, and the Calvin cycle occurs in the surrounding stroma.",
+            "cueIds": [
+              "cue-12"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-12 places light-dependent reactions in thylakoid membranes and the Calvin cycle in the stroma."
+          },
+          {
+            "id": "c11",
+            "text": "The light reactions produce ATP, which provides energy, and NADPH, which provides reducing power, both used by the Calvin cycle.",
+            "cueIds": [
+              "cue-13"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-13 states the light reactions produce ATP (energy) and NADPH (reducing power) used by the Calvin cycle."
+          },
+          {
+            "id": "c12",
+            "text": "Calling the Calvin cycle 'light-independent' means it does not directly capture photons, not that it runs only in darkness.",
+            "cueIds": [
+              "cue-14"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-14 explains the label means not directly capturing photons and rejects the night-shift reading."
+          },
+          {
+            "id": "c13",
+            "text": "The Calvin cycle produces a three-carbon molecule, G3P, used to build other organic molecules rather than directly yielding a whole glucose each turn.",
+            "cueIds": [
+              "cue-15"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Cue-15 names G3P as the three-carbon product and cautions against imagining whole glucose as the direct product of every turn."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q3",
+            "concept": "Meaning of 'light-independent reactions'",
+            "question": "What does it mean that the Calvin cycle is called 'light-independent'?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "It runs only at night when the light reactions have stopped",
+                "explanation": "The source explicitly rejects this 'night shift' reading; the cycle depends on light-reaction products and is coordinated with the chloroplast's state.",
+                "cueIds": [
+                  "cue-14"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "Its reactions do not directly capture photons",
+                "explanation": "Correct: the label carries this narrower meaning according to the source.",
+                "cueIds": [
+                  "cue-14"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "It needs no products from the light reactions",
+                "explanation": "The cycle uses ATP and NADPH from the light reactions, so it is not independent of them.",
+                "cueIds": [
+                  "cue-13",
+                  "cue-14"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-13",
+              "cue-14"
+            ],
+            "recovery": {
+              "question": "Which molecules link the light reactions to the Calvin cycle, and where does each set of reactions occur?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "ATP and NADPH; light reactions in thylakoid membranes, Calvin cycle in the stroma"
+                },
+                {
+                  "id": "b",
+                  "text": "Oxygen and glucose; both in the stroma"
+                },
+                {
+                  "id": "c",
+                  "text": "G3P and chlorophyll; light reactions in the stroma, Calvin cycle in thylakoids"
+                }
+              ],
+              "correctId": "a",
+              "explanation": "Cue-13 names ATP and NADPH as the connecting products; cue-12 places the light reactions in thylakoid membranes and the Calvin cycle in the stroma.",
+              "cueIds": [
+                "cue-12",
+                "cue-13"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Stomata",
+        "definition": "Tiny leaf pores that let carbon dioxide enter while also allowing water vapor to escape, creating a trade-off.",
+        "cueIds": [
+          "cue-3",
+          "cue-10"
+        ]
+      },
+      {
+        "term": "Carbon fixation",
+        "definition": "The journey of a carbon atom from carbon dioxide outside the leaf into an organic molecule inside the plant, carried out through the Calvin cycle.",
+        "cueIds": [
+          "cue-6",
+          "cue-8"
+        ]
+      },
+      {
+        "term": "Thylakoids and stroma",
+        "definition": "Thylakoids are chloroplast membranes where light-dependent reactions occur; the stroma is the surrounding fluid where the Calvin cycle occurs.",
+        "cueIds": [
+          "cue-12"
+        ]
+      }
+    ]
+  },
+  "run": {
+    "id": "d45da3bd-bc02-4552-9efd-68a719d87cfc",
+    "provider": "Local Claude",
+    "model": "claude-fable-5-1",
+    "sourceHash": "c873a1b1893a72770ebdcfeef96166cc74905df3bfedaf3374b43e94ccc02555",
+    "promptVersion": "watchread-1",
+    "createdAt": "2026-09-20T07:51:41.960Z",
+    "durationMs": 79826,
+    "inputTokens": 11428,
+    "outputTokens": 4794,
+    "requests": 2,
+    "reviewer": "Model support review; not independent factual verification"
+  }
+}

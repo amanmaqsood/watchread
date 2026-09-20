@@ -1,0 +1,10 @@
+{
+  "testedAt": "2026-09-20T09:40:00Z",
+  "url": "https://watchread.vercel.app",
+  "statusEndpoint": { "available": false, "provider": "Not configured" },
+  "sameOriginPostStatus": 503,
+  "sameOriginReason": "New AI composition is not enabled on this public demo. Create a companion in the laptop version, then restore its exported project here.",
+  "foreignOriginPostStatus": 403,
+  "videoByteRangeStatus": 206,
+  "envFilePathStatus": 404
+}

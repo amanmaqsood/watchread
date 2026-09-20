@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-20T10:02:22.257Z",
+  "results": [
+    {
+      "width": 1280,
+      "route": "/",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/guide",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/credits",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app/new",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/guide",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/credits",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app/new",
+      "overflow": false,
+      "violations": []
+    }
+  ]
+}

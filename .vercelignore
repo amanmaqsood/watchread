@@ -1,0 +1,16 @@
+.env*
+!.env.example
+.local/
+node_modules/
+.next/
+.git/
+test-results/
+playwright-report/
+docs/
+evals/
+/examples/
+tests/
+content/sample/audio/
+content/sample/frames/
+*.tsbuildinfo
+.DS_Store

@@ -1,0 +1,391 @@
+{
+  "companion": {
+    "title": "Why a Metal Spoon Feels Colder",
+    "subtitle": "Sensation, conduction, and the difference between temperature and thermal energy",
+    "chapters": [
+      {
+        "id": "ch-1",
+        "title": "Feeling Cold Is Not Measuring Temperature",
+        "goal": "Explain why objects at the same temperature can feel different to the touch.",
+        "claims": [
+          {
+            "id": "c1",
+            "text": "A metal spoon and a wooden spoon can share the same room temperature yet feel different when touched.",
+            "cueIds": [
+              "cue-1"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 states both spoons can be at the same room temperature and still feel different."
+          },
+          {
+            "id": "c2",
+            "text": "The metal spoon usually feels colder because it draws thermal energy away from a warmer hand more quickly.",
+            "cueIds": [
+              "cue-1"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 states metal usually feels colder because it transfers thermal energy away from a warmer hand more quickly."
+          },
+          {
+            "id": "c3",
+            "text": "A sensation of coldness does not by itself measure an object's temperature.",
+            "cueIds": [
+              "cue-1",
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 says feeling cold does not by itself measure temperature; cue-5 reinforces this."
+          },
+          {
+            "id": "c4",
+            "text": "The student's conclusion that the metal must be colder because it feels colder is not justified; a thermometer should be used to compare the temperatures.",
+            "cueIds": [
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-5 quotes the student's claim, calls it not justified, and recommends comparing with a suitable thermometer."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q1",
+            "concept": "Sensation versus temperature",
+            "question": "A metal spoon and a wooden spoon have sat in the same room for hours. Why does the metal one feel colder?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "The metal spoon is at a lower temperature than the wooden spoon.",
+                "explanation": "Misconception: the source says both spoons can be at the same room temperature; feeling colder does not mean being colder.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-5"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "The metal transfers thermal energy away from the hand faster than wood does.",
+                "explanation": "Correct: the sensation depends on the rate of energy transfer, and metal conducts faster.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-2"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Cold flows from the metal into the hand.",
+                "explanation": "Misconception: cold is not a substance that flows; energy moves from the hotter hand to the colder object.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-1",
+              "cue-2",
+              "cue-5"
+            ],
+            "recovery": {
+              "question": "A student insists the metal spoon must be colder because it feels colder. What is the best way to test this?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Touch both spoons again more carefully."
+                },
+                {
+                  "id": "b",
+                  "text": "Measure both spoons with a suitable thermometer."
+                },
+                {
+                  "id": "c",
+                  "text": "Assume the metal is colder since sensation is reliable."
+                }
+              ],
+              "correctId": "b",
+              "explanation": "Touch depends on transfer rate as well as temperature, so a thermometer is needed to compare temperatures.",
+              "cueIds": [
+                "cue-5"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch-2",
+        "title": "Conduction and Insulation",
+        "goal": "Describe thermal conduction and how insulators slow energy exchange.",
+        "claims": [
+          {
+            "id": "c5",
+            "text": "Thermal conduction moves energy through matter without bulk movement of the material.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 defines thermal conduction as transfer through matter without bulk movement."
+          },
+          {
+            "id": "c6",
+            "text": "Metals are often good thermal conductors, while wood generally conducts heat much more slowly.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 states metals are often good conductors and wood conducts much more slowly."
+          },
+          {
+            "id": "c7",
+            "text": "A wooden spoon handle can stay comfortable longer when part of the spoon is in hot liquid because wood conducts slowly.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 links slow conduction in wood to the handle staying comfortable longer."
+          },
+          {
+            "id": "c8",
+            "text": "An insulating glove reduces heat transfer between hand and object but does not create heat.",
+            "cueIds": [
+              "cue-6"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-6 states the glove reduces heat transfer and does not create heat."
+          },
+          {
+            "id": "c9",
+            "text": "Insulation can keep a warm drink warm or a cold drink cold by slowing energy exchange with the surroundings.",
+            "cueIds": [
+              "cue-6"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-6 states insulation keeps warm drinks warm or cold drinks cold by slowing energy exchange."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q2",
+            "concept": "Role of insulators",
+            "question": "What does an insulating glove do when you hold a hot object?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "It generates heat to protect the hand.",
+                "explanation": "Misconception: an insulator does not create heat merely by being an insulator.",
+                "cueIds": [
+                  "cue-6"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "It slows the transfer of heat between the object and the hand.",
+                "explanation": "Correct: insulation reduces the rate of heat transfer.",
+                "cueIds": [
+                  "cue-6"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "It absorbs cold from the hand.",
+                "explanation": "Misconception: cold is not a substance that flows; energy moves from hotter to colder.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-6",
+              "cue-4"
+            ],
+            "recovery": {
+              "question": "Why can an insulated container keep a cold drink cold?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It slows energy exchange between the drink and the warmer surroundings."
+                },
+                {
+                  "id": "b",
+                  "text": "It continuously removes heat from the drink."
+                },
+                {
+                  "id": "c",
+                  "text": "It adds cold to the drink over time."
+                }
+              ],
+              "correctId": "a",
+              "explanation": "Insulation works the same way for warm or cold contents: it slows energy exchange with the surroundings.",
+              "cueIds": [
+                "cue-6"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch-3",
+        "title": "Temperature, Thermal Energy, and Heat Flow",
+        "goal": "Distinguish temperature from internal energy and state the direction of heat transfer.",
+        "claims": [
+          {
+            "id": "c10",
+            "text": "Temperature and thermal energy are not interchangeable terms.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-3 states temperature and thermal energy are not interchangeable names."
+          },
+          {
+            "id": "c11",
+            "text": "Temperature describes a thermal state, while total internal energy also depends on the amount of material and its properties.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-3 states temperature describes a thermal state while internal energy depends on amount and properties."
+          },
+          {
+            "id": "c12",
+            "text": "A larger amount of water can contain more internal energy than a smaller amount at the same temperature.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-3 gives the water example directly."
+          },
+          {
+            "id": "c13",
+            "text": "Energy transfers spontaneously from a hotter object to a colder one, not because cold enters the warm object.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-4 states spontaneous hot-to-cold transfer and denies that cold is a substance entering."
+          },
+          {
+            "id": "c14",
+            "text": "At thermal equilibrium there is no net heat transfer between two objects.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-4 states no net heat transfer at thermal equilibrium."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q3",
+            "concept": "Temperature versus internal energy",
+            "question": "Two containers of water are at the same temperature, but one holds much more water. Which statement is correct?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "Both contain the same total internal energy because temperature is the same.",
+                "explanation": "Misconception: internal energy also depends on how much material is present, not just temperature.",
+                "cueIds": [
+                  "cue-3"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "The larger amount of water can contain more internal energy.",
+                "explanation": "Correct: at equal temperature, more material can hold more internal energy.",
+                "cueIds": [
+                  "cue-3"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "The larger amount must be at a higher temperature.",
+                "explanation": "Misconception: the scenario fixes equal temperatures; temperature and total energy are distinct quantities.",
+                "cueIds": [
+                  "cue-3"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-3"
+            ],
+            "recovery": {
+              "question": "Two objects in contact have reached thermal equilibrium. What is true of heat transfer between them?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Heat still flows from the larger object to the smaller one."
+                },
+                {
+                  "id": "b",
+                  "text": "There is no net heat transfer between them."
+                },
+                {
+                  "id": "c",
+                  "text": "Cold flows from the colder-feeling object to the other."
+                }
+              ],
+              "correctId": "b",
+              "explanation": "At thermal equilibrium there is no net heat transfer; heat otherwise flows from hotter to colder, and cold is not a substance.",
+              "cueIds": [
+                "cue-4"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Thermal conduction",
+        "definition": "Transfer of energy through matter without bulk movement of the material.",
+        "cueIds": [
+          "cue-2"
+        ]
+      },
+      {
+        "term": "Thermal equilibrium",
+        "definition": "The state in which two objects that can exchange heat have no net heat transfer between them.",
+        "cueIds": [
+          "cue-4"
+        ]
+      },
+      {
+        "term": "Insulator",
+        "definition": "A material that reduces heat transfer between objects, slowing energy exchange without creating heat.",
+        "cueIds": [
+          "cue-6"
+        ]
+      }
+    ]
+  },
+  "run": {
+    "id": "0212c54f-33af-4e6b-ae7b-dec79da84218",
+    "provider": "Local Claude",
+    "model": "claude-fable-5-1",
+    "sourceHash": "d59c52b331db234924205c659878094bcce858b41a2ff7d042944db570d613e1",
+    "promptVersion": "watchread-1",
+    "createdAt": "2026-09-20T07:52:33.924Z",
+    "durationMs": 51962,
+    "inputTokens": 7169,
+    "outputTokens": 4233,
+    "requests": 2,
+    "reviewer": "Model support review; not independent factual verification"
+  }
+}

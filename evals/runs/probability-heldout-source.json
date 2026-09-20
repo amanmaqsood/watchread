@@ -1,0 +1,42 @@
+{
+  "id": "probability-heldout",
+  "title": "Two coin tosses and a stubborn misconception",
+  "cues": [
+    {
+      "id": "cue-1",
+      "start": null,
+      "end": null,
+      "text": "For an ideal fair coin, heads and tails each have probability one half on a toss. In this example, successive tosses are independent. Independence means that knowing the result of one toss does not change the probability distribution for the next one."
+    },
+    {
+      "id": "cue-2",
+      "start": null,
+      "end": null,
+      "text": "After three heads in a row, a student says tails is now due. For the independent fair coin described here, that is a mistake. The probability of tails on the next toss is still one half. The coin has no memory of earlier outcomes."
+    },
+    {
+      "id": "cue-3",
+      "start": null,
+      "end": null,
+      "text": "For two independent fair tosses, the four ordered outcomes are heads-heads, heads-tails, tails-heads, and tails-tails. Each ordered outcome has probability one quarter. Order matters when listing these elementary outcomes."
+    },
+    {
+      "id": "cue-4",
+      "start": null,
+      "end": null,
+      "text": "Exactly one head can occur as heads-tails or tails-heads. Those are two distinct outcomes, so its probability is one half. Counting only one of them would miss half of the favorable outcomes. Two heads has probability one quarter."
+    },
+    {
+      "id": "cue-5",
+      "start": null,
+      "end": null,
+      "text": "At least one head includes heads-heads, heads-tails, and tails-heads. Its probability is three quarters. Another method is to subtract the probability of no heads, which is tails-tails, from one."
+    },
+    {
+      "id": "cue-6",
+      "start": null,
+      "end": null,
+      "text": "A probability model describes assumptions, not a guarantee that every small batch will match its expected proportions. Four tosses do not have to contain exactly two heads. If the coin is biased or tosses are dependent, the fair independent model must be reconsidered."
+    }
+  ]
+}

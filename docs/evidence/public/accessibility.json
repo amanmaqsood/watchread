@@ -1,0 +1,133 @@
+{
+  "testedAt": "2026-09-20T09:45:09.821Z",
+  "base": "https://watchread.vercel.app",
+  "note": "Automated axe scan, not a complete accessibility audit",
+  "results": [
+    {
+      "route": "/",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/guide",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/new",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/heat-and-touch/read",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/read",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/practice",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/sources",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/export",
+      "width": 1280,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/guide",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/new",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/heat-and-touch/read",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/read",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/practice",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/sources",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/app/photosynthesis/export",
+      "width": 390,
+      "httpStatus": 200,
+      "overflow": false,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+(node:69591) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/browser/live.spec.ts:8:1 › real Fable composition through timed video import persists its recording (1.0m)
+
+  1 passed (1.0m)

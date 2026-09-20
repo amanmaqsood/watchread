@@ -1,0 +1,27 @@
+
+> watchread@1.0.0 test:e2e
+> playwright test
+
+
+Running 15 tests using 1 worker
+
+(node:83063) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/boundaries.spec.ts:11:1 › all exports reopen and portable project reconnects the exact original media (1.1s)
+  ✓   2 [chromium] › tests/browser/boundaries.spec.ts:73:1 › source replacement disables old evidence and practice, then restores prior source and run (576ms)
+  ✓   3 [chromium] › tests/browser/boundaries.spec.ts:107:1 › sample is usable without external services and clip seeks exactly and stops at its end (847ms)
+  ✓   4 [chromium] › tests/browser/boundaries.spec.ts:141:1 › keyboard dialogs trap and restore focus; chapter edits keep typed shortcuts literal (366ms)
+  ✓   5 [chromium] › tests/browser/boundaries.spec.ts:165:1 › video-only imports remain a saved draft awaiting a transcript (395ms)
+  ✓   6 [chromium] › tests/browser/boundaries.spec.ts:184:1 › a media quota failure preserves transcript and gives an honest reconnect flow (376ms)
+  ✓   7 [chromium] › tests/browser/boundaries.spec.ts:214:1 › sample stays readable when all browser storage is unavailable (318ms)
+  ✓   8 [chromium] › tests/browser/boundaries.spec.ts:235:1 › noncontiguous passages stay separate and later references scroll into view (848ms)
+  ✓   9 [chromium] › tests/browser/journey.spec.ts:2:1 › complete source and recovery journey survives reload (1.4s)
+  ✓  10 [chromium] › tests/browser/journey.spec.ts:74:1 › mobile reader is usable and opens actual source (355ms)
+  ✓  11 [chromium] › tests/browser/journey.spec.ts:95:1 › untimed transcript import preserves an honest saved draft when generation is unavailable (375ms)
+  -  12 [chromium] › tests/browser/live.spec.ts:8:1 › real Fable composition through timed video import persists its recording
+  -  13 [chromium] › tests/browser/live.spec.ts:110:1 › real generation cancellation preserves its saved source and releases the model job
+  ✓  14 [chromium] › tests/browser/public-demo.spec.ts:3:1 › first-use tour leads to a complete second prepared lesson (508ms)
+  ✓  15 [chromium] › tests/browser/public-demo.spec.ts:32:1 › public example downloads and restores as a separate editable companion (368ms)
+
+  2 skipped
+  13 passed (8.9s)

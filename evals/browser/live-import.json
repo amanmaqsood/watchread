@@ -1,0 +1,424 @@
+{
+  "project": {
+    "schemaVersion": 1,
+    "id": "0e1c065e-ed44-4fc8-b5de-6e794512cc5a",
+    "title": "Where a Tree Gets Its Carbon",
+    "sourceType": "upload",
+    "rights": "owner",
+    "attribution": "Ownership declared by the uploader.",
+    "createdAt": "2026-09-20T08:36:04.252Z",
+    "updatedAt": "2026-09-20T08:37:03.917Z",
+    "revision": "8419de46c882c9f1641293461510cdbb7c20cbcbdc1686ad9572305f20cb450c",
+    "cues": [
+      {
+        "id": "cue-1",
+        "start": 0,
+        "end": 24.2,
+        "text": "Look at a tree outside your window. Its trunk feels solid, heavy, and very different from the air around it. Where did that material come from? A common first answer is the soil. Roots do take up water and minerals, but the carbon in a tree's organic molecules comes mainly from carbon dioxide in the air. Photosynthesis is the process that brings that carbon into the living world."
+      },
+      {
+        "id": "cue-2",
+        "start": 24.2,
+        "end": 51.1,
+        "text": "We need to separate two questions: where the atoms come from, and where the energy comes from. Carbon dioxide and water provide atoms. Light supplies energy. Light is not an ingredient that turns into carbon atoms. During photosynthesis, the plant uses energy to rearrange matter into molecules that can store chemical energy. Keeping matter and energy separate makes the whole process much easier to understand."
+      },
+      {
+        "id": "cue-3",
+        "start": 51.1,
+        "end": 80.7,
+        "text": "A leaf brings together the ingredients and structures needed for photosynthesis. Tiny pores, called stomata, allow carbon dioxide to enter. Water arrives through the plant's transport tissues. Inside leaf cells, chloroplasts contain the machinery that captures light and builds organic molecules. A leaf is not simply a green solar panel. It is also a place where gases move, water travels, and many connected chemical reactions take place."
+      },
+      {
+        "id": "cue-4",
+        "start": 80.7,
+        "end": 105.8,
+        "text": "Why do many leaves look green? Chlorophyll absorbs some wavelengths of light more strongly than others, especially in the red and blue regions. A greater proportion of green light is reflected or transmitted, so green is the color that often reaches our eyes. Saying that plants are green because they absorb only green light reverses the explanation. Leaf color is a clue about which light is not absorbed as strongly."
+      },
+      {
+        "id": "cue-5",
+        "start": 105.8,
+        "end": 131.3,
+        "text": "None of this means that soil is unimportant. Plants need minerals, water, and a suitable environment for their roots. Those resources support growth, but they play different roles from carbon dioxide. When we say that much of a plant's dry organic material comes from the air, we are following carbon atoms. We are not saying that a plant can live without roots, water, or mineral nutrients."
+      }
+    ],
+    "companion": {
+      "title": "Where a Tree Gets Its Carbon",
+      "subtitle": "Following carbon atoms from air to wood, and keeping matter and energy separate",
+      "chapters": [
+        {
+          "id": "ch1",
+          "title": "Atoms from the Air, Energy from Light",
+          "goal": "Distinguish the source of a tree's carbon atoms from the source of its energy.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "The carbon in a tree's organic molecules comes mainly from carbon dioxide in the air, not from the soil.",
+              "cueIds": [
+                "cue-1"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-1 states carbon in a tree's organic molecules comes mainly from CO2 in the air, contrasting with the common soil answer."
+            },
+            {
+              "id": "c2",
+              "text": "Photosynthesis is the process that brings atmospheric carbon into the living world.",
+              "cueIds": [
+                "cue-1"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-1 states photosynthesis brings that carbon into the living world."
+            },
+            {
+              "id": "c3",
+              "text": "Carbon dioxide and water provide the atoms for photosynthesis, while light supplies the energy.",
+              "cueIds": [
+                "cue-2"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-2 states CO2 and water provide atoms, light supplies energy."
+            },
+            {
+              "id": "c4",
+              "text": "Light is not an ingredient that turns into carbon atoms; the plant uses light energy to rearrange matter into energy-storing molecules.",
+              "cueIds": [
+                "cue-2"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-2 states light is not an ingredient that turns into carbon atoms and the plant uses energy to rearrange matter into energy-storing molecules."
+            }
+          ],
+          "checks": [
+            {
+              "id": "q1",
+              "concept": "Source of carbon atoms in a tree's organic material",
+              "question": "Where does most of the carbon in a tree's organic molecules come from?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Carbon dioxide in the air",
+                  "explanation": "Correct: the source states carbon comes mainly from atmospheric CO2 via photosynthesis.",
+                  "cueIds": [
+                    "cue-1"
+                  ]
+                },
+                {
+                  "id": "b",
+                  "text": "Minerals absorbed from the soil",
+                  "explanation": "A common first answer, but roots take up water and minerals, not the tree's carbon.",
+                  "cueIds": [
+                    "cue-1",
+                    "cue-5"
+                  ]
+                },
+                {
+                  "id": "c",
+                  "text": "Sunlight converted into carbon",
+                  "explanation": "Light supplies energy, not atoms; it does not turn into carbon.",
+                  "cueIds": [
+                    "cue-2"
+                  ]
+                }
+              ],
+              "correctId": "a",
+              "cueIds": [
+                "cue-1",
+                "cue-2"
+              ],
+              "recovery": {
+                "question": "If you traced the carbon atoms in a tree's wood backward, which substance would you reach?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Water drawn up by the roots"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Carbon dioxide taken in from the air"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Mineral nutrients in the soil"
+                  }
+                ],
+                "correctId": "b",
+                "explanation": "Following carbon atoms leads back to atmospheric carbon dioxide; water and minerals play different roles.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-5"
+                ]
+              },
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "id": "ch2",
+          "title": "Inside the Leaf",
+          "goal": "Understand the leaf's structures and why leaves appear green.",
+          "claims": [
+            {
+              "id": "c5",
+              "text": "Stomata are tiny pores that let carbon dioxide enter the leaf, while water arrives through the plant's transport tissues.",
+              "cueIds": [
+                "cue-3"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-3 describes stomata admitting CO2 and water arriving via transport tissues."
+            },
+            {
+              "id": "c6",
+              "text": "Chloroplasts inside leaf cells contain the machinery that captures light and builds organic molecules.",
+              "cueIds": [
+                "cue-3"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-3 states chloroplasts contain the machinery that captures light and builds organic molecules."
+            },
+            {
+              "id": "c7",
+              "text": "Chlorophyll absorbs red and blue light more strongly, so a greater share of green light is reflected or transmitted, which is why leaves often look green.",
+              "cueIds": [
+                "cue-4"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-4 states chlorophyll absorbs red and blue more strongly and a greater proportion of green is reflected or transmitted."
+            },
+            {
+              "id": "c8",
+              "text": "Saying plants are green because they absorb only green light reverses the actual explanation.",
+              "cueIds": [
+                "cue-4"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-4 states this explanation is reversed."
+            }
+          ],
+          "checks": [
+            {
+              "id": "q2",
+              "concept": "Why leaves appear green",
+              "question": "Why do many leaves look green?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Chlorophyll absorbs green light most strongly",
+                  "explanation": "This reverses the explanation; absorbed light does not reach our eyes.",
+                  "cueIds": [
+                    "cue-4"
+                  ]
+                },
+                {
+                  "id": "b",
+                  "text": "Green light is reflected or transmitted more than red and blue, which are absorbed more strongly",
+                  "explanation": "Correct: leaf color is a clue about which light is not absorbed as strongly.",
+                  "cueIds": [
+                    "cue-4"
+                  ]
+                },
+                {
+                  "id": "c",
+                  "text": "Stomata release green-colored gas",
+                  "explanation": "Stomata are pores for carbon dioxide entry; they do not explain leaf color.",
+                  "cueIds": [
+                    "cue-3",
+                    "cue-4"
+                  ]
+                }
+              ],
+              "correctId": "b",
+              "cueIds": [
+                "cue-4"
+              ],
+              "recovery": {
+                "question": "Which wavelengths does chlorophyll absorb most strongly, according to the source?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Red and blue"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Green"
+                  },
+                  {
+                    "id": "c",
+                    "text": "All wavelengths equally"
+                  }
+                ],
+                "correctId": "a",
+                "explanation": "Chlorophyll absorbs red and blue more strongly; green is largely reflected or transmitted, giving leaves their color.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              },
+              "status": "supported"
+            }
+          ]
+        },
+        {
+          "id": "ch3",
+          "title": "Soil Still Matters",
+          "goal": "Clarify the distinct role of roots, water, and minerals.",
+          "claims": [
+            {
+              "id": "c9",
+              "text": "Plants still need minerals, water, and a suitable root environment; these support growth but play different roles from carbon dioxide.",
+              "cueIds": [
+                "cue-5"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-5 states plants need minerals, water, and a suitable root environment, playing different roles from CO2."
+            },
+            {
+              "id": "c10",
+              "text": "Saying much of a plant's dry organic material comes from the air means following carbon atoms, not claiming plants can live without roots, water, or nutrients.",
+              "cueIds": [
+                "cue-5"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-5 states the claim follows carbon atoms and does not mean plants can live without roots, water, or minerals."
+            },
+            {
+              "id": "c11",
+              "text": "A leaf is more than a green solar panel: it is a place where gases move, water travels, and connected reactions occur.",
+              "cueIds": [
+                "cue-3"
+              ],
+              "kind": "paraphrase",
+              "status": "supported",
+              "reason": "cue-3 states a leaf is not simply a green solar panel but a place where gases move, water travels, and reactions occur."
+            }
+          ],
+          "checks": [
+            {
+              "id": "q3",
+              "concept": "Role of soil resources versus carbon dioxide",
+              "question": "What does it mean to say much of a plant's dry organic material comes from the air?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Plants do not need roots, water, or minerals",
+                  "explanation": "The source explicitly rejects this; those resources remain necessary.",
+                  "cueIds": [
+                    "cue-5"
+                  ]
+                },
+                {
+                  "id": "b",
+                  "text": "We are tracing carbon atoms, which come from CO2, while soil resources play other supporting roles",
+                  "explanation": "Correct: the statement follows carbon atoms and does not deny the importance of soil.",
+                  "cueIds": [
+                    "cue-5",
+                    "cue-1"
+                  ]
+                },
+                {
+                  "id": "c",
+                  "text": "Soil minerals are converted into carbon inside the leaf",
+                  "explanation": "Minerals are not the source of carbon; carbon comes from atmospheric CO2.",
+                  "cueIds": [
+                    "cue-1",
+                    "cue-5"
+                  ]
+                }
+              ],
+              "correctId": "b",
+              "cueIds": [
+                "cue-5"
+              ],
+              "recovery": {
+                "question": "Which statement about soil is consistent with the source?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Soil is unimportant because carbon comes from the air"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Soil supplies the carbon that becomes wood"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Soil provides water and minerals that support growth, but not the tree's carbon"
+                  }
+                ],
+                "correctId": "c",
+                "explanation": "Roots take up water and minerals, which support growth; the carbon itself comes from carbon dioxide.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-5"
+                ]
+              },
+              "status": "supported"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Photosynthesis",
+          "definition": "The process by which a plant uses light energy to rearrange carbon dioxide and water into organic molecules that store chemical energy.",
+          "cueIds": [
+            "cue-1",
+            "cue-2"
+          ]
+        },
+        {
+          "term": "Stomata",
+          "definition": "Tiny pores in a leaf that allow carbon dioxide to enter.",
+          "cueIds": [
+            "cue-3"
+          ]
+        },
+        {
+          "term": "Chloroplast",
+          "definition": "A structure inside leaf cells containing the machinery that captures light and builds organic molecules.",
+          "cueIds": [
+            "cue-3"
+          ]
+        }
+      ]
+    },
+    "attempts": [],
+    "media": {
+      "name": "lecture.mp4",
+      "hash": "a14bc618da5e59f5ee230b5dcc45ccce4ee5aa027263d3c94b36b4ac0533b2f7",
+      "duration": 447.24644,
+      "size": 8923648,
+      "mime": "video/mp4"
+    },
+    "run": {
+      "id": "49508812-e264-4f63-994f-82485395cc02",
+      "provider": "Local Claude",
+      "model": "claude-fable-5-1",
+      "sourceHash": "8419de46c882c9f1641293461510cdbb7c20cbcbdc1686ad9572305f20cb450c",
+      "promptVersion": "watchread-2",
+      "createdAt": "2026-09-20T08:37:03.913Z",
+      "durationMs": 59648,
+      "inputTokens": 7067,
+      "outputTokens": 3813,
+      "requests": 2,
+      "reviewer": "Model support review; not independent factual verification"
+    },
+    "status": "ready"
+  },
+  "wallMs": 61216,
+  "observed": [
+    "real timed import",
+    "real model pipeline",
+    "distinct generated result",
+    "IndexedDB video persistence",
+    "reload",
+    "citation playback"
+  ]
+}

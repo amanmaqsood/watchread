@@ -1,0 +1,25 @@
+
+> watchread@1.0.0 test:e2e
+> playwright test
+
+
+Running 13 tests using 1 worker
+
+(node:74037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/boundaries.spec.ts:11:1 › all exports reopen and portable project reconnects the exact original media (1.4s)
+  ✓   2 [chromium] › tests/browser/boundaries.spec.ts:73:1 › source replacement disables old evidence and practice, then restores prior source and run (648ms)
+  ✓   3 [chromium] › tests/browser/boundaries.spec.ts:107:1 › sample is usable without external services and clip seeks exactly and stops at its end (1.3s)
+  ✓   4 [chromium] › tests/browser/boundaries.spec.ts:138:1 › keyboard dialogs trap and restore focus; chapter edits keep typed shortcuts literal (418ms)
+  ✓   5 [chromium] › tests/browser/boundaries.spec.ts:162:1 › video-only imports remain a saved draft awaiting a transcript (473ms)
+  ✓   6 [chromium] › tests/browser/boundaries.spec.ts:181:1 › a media quota failure preserves transcript and gives an honest reconnect flow (476ms)
+  ✓   7 [chromium] › tests/browser/boundaries.spec.ts:211:1 › sample stays readable when all browser storage is unavailable (363ms)
+  ✓   8 [chromium] › tests/browser/boundaries.spec.ts:232:1 › noncontiguous passages stay separate and later references scroll into view (890ms)
+  ✓   9 [chromium] › tests/browser/journey.spec.ts:2:1 › complete source and recovery journey survives reload (1.4s)
+  ✓  10 [chromium] › tests/browser/journey.spec.ts:74:1 › mobile reader is usable and opens actual source (389ms)
+  ✓  11 [chromium] › tests/browser/journey.spec.ts:95:1 › untimed transcript import preserves an honest saved draft when generation is unavailable (422ms)
+  -  12 [chromium] › tests/browser/live.spec.ts:8:1 › real Fable composition through timed video import persists its recording
+  -  13 [chromium] › tests/browser/live.spec.ts:110:1 › real generation cancellation preserves its saved source and releases the model job
+
+  2 skipped
+  11 passed (9.6s)

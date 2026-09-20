@@ -1,0 +1,31 @@
+Vercel CLI 56.3.2 (Node.js 24.16.0)
+Fetching deployment "watchread-45uope8f7-apex-stack.vercel.app" in apex-stack
+> Fetched deployment "watchread-45uope8f7-apex-stack.vercel.app" in apex-stack [2s]
+
+  General
+
+    id		dpl_42LyC2ZFhchjPbArDZwoFRjpWF4t
+    name	watchread
+    target	production
+    status	● Ready
+    url		https://watchread-45uope8f7-apex-stack.vercel.app
+    created	Sun Sep 20 2026 15:12:12 GMT+0530 (India Standard Time) [3m ago]
+
+
+  Aliases
+
+    ╶ https://watchread.vercel.app
+    ╶ https://watchread-apex-stack.vercel.app
+    
+
+  Builds
+
+    ┌ .        [0ms]
+    ├── λ index (967.06KB) [iad1]
+    ├── λ _global-error (967.06KB) [iad1]
+    ├── λ _global-error.rsc (967.06KB) [iad1]
+    ├── λ _global-error.segments/__PAGE__.segment.rsc (967.06KB) [iad1]
+    ├── λ _global-error.segments/_full.segment.rsc (967.06KB) [iad1]
+    └── 30 output items hidden
+    
+

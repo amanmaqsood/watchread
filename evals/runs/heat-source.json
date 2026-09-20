@@ -1,0 +1,42 @@
+{
+  "id": "heat",
+  "title": "Why a metal spoon feels colder",
+  "cues": [
+    {
+      "id": "cue-1",
+      "start": null,
+      "end": null,
+      "text": "A metal spoon and a wooden spoon can be at the same room temperature and still feel different. The metal usually feels colder because it transfers thermal energy away from a warmer hand more quickly. Feeling cold does not by itself measure the object's temperature."
+    },
+    {
+      "id": "cue-2",
+      "start": null,
+      "end": null,
+      "text": "Thermal conduction transfers energy through matter without the bulk movement of the material. Metals are often good thermal conductors. Wood generally conducts heat much more slowly. A wooden spoon handle can therefore stay comfortable longer when part of the spoon is in hot liquid."
+    },
+    {
+      "id": "cue-3",
+      "start": null,
+      "end": null,
+      "text": "Temperature and thermal energy are not interchangeable names. Temperature describes a thermal state, while total internal energy also depends on how much material is present and its properties. A larger amount of water can contain more internal energy than a smaller amount at the same temperature."
+    },
+    {
+      "id": "cue-4",
+      "start": null,
+      "end": null,
+      "text": "Energy transfers spontaneously from a hotter object to a colder one when they can exchange heat. It does not flow because cold is a substance entering the warm object. When two objects reach thermal equilibrium, there is no net heat transfer between them."
+    },
+    {
+      "id": "cue-5",
+      "start": null,
+      "end": null,
+      "text": "A student says the metal must be colder because it feels colder. That conclusion is not justified. The sensation depends on the rate of energy transfer as well as the temperatures. Compare both objects with a suitable thermometer to test whether their temperatures really differ."
+    },
+    {
+      "id": "cue-6",
+      "start": null,
+      "end": null,
+      "text": "An insulating glove reduces heat transfer between a hand and an object. It does not create heat merely by being an insulator. The same principle helps explain why insulation can keep a warm drink warm or a cold drink cold: it slows energy exchange with the surroundings."
+    }
+  ]
+}

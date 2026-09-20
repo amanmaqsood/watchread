@@ -1,0 +1,92 @@
+
+Running 15 tests using 1 worker
+
+(node:78957) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/boundaries.spec.ts:11:1 › all exports reopen and portable project reconnects the exact original media (13.3s)
+  ✓   2 [chromium] › tests/browser/boundaries.spec.ts:73:1 › source replacement disables old evidence and practice, then restores prior source and run (22.0s)
+  ✓   3 [chromium] › tests/browser/boundaries.spec.ts:107:1 › sample is usable without external services and clip seeks exactly and stops at its end (14.9s)
+  ✓   4 [chromium] › tests/browser/boundaries.spec.ts:141:1 › keyboard dialogs trap and restore focus; chapter edits keep typed shortcuts literal (12.7s)
+  ✓   5 [chromium] › tests/browser/boundaries.spec.ts:165:1 › video-only imports remain a saved draft awaiting a transcript (18.4s)
+  ✓   6 [chromium] › tests/browser/boundaries.spec.ts:184:1 › a media quota failure preserves transcript and gives an honest reconnect flow (15.6s)
+  ✓   7 [chromium] › tests/browser/boundaries.spec.ts:214:1 › sample stays readable when all browser storage is unavailable (9.0s)
+  ✓   8 [chromium] › tests/browser/boundaries.spec.ts:235:1 › noncontiguous passages stay separate and later references scroll into view (11.2s)
+  ✘   9 [chromium] › tests/browser/journey.spec.ts:2:1 › complete source and recovery journey survives reload (13.9s)
+(node:79302) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [chromium] › tests/browser/journey.spec.ts:74:1 › mobile reader is usable and opens actual source (7.3s)
+  ✓  11 [chromium] › tests/browser/journey.spec.ts:95:1 › untimed transcript import preserves an honest saved draft when generation is unavailable (8.3s)
+  -  12 [chromium] › tests/browser/live.spec.ts:8:1 › real Fable composition through timed video import persists its recording
+  -  13 [chromium] › tests/browser/live.spec.ts:110:1 › real generation cancellation preserves its saved source and releases the model job
+  ✓  14 [chromium] › tests/browser/public-demo.spec.ts:3:1 › first-use tour leads to a complete second prepared lesson (5.2s)
+  ✘  15 [chromium] › tests/browser/public-demo.spec.ts:32:1 › public example downloads and restores as a separate editable companion (1.8s)
+
+
+  1) [chromium] › tests/browser/journey.spec.ts:2:1 › complete source and recovery journey survives reload 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 20
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      13 |   await expect
+      14 |     .poll(() => video.evaluate((v: HTMLVideoElement) => v.currentTime))
+    > 15 |     .toBeGreaterThan(20);
+         |      ^
+      16 |   await expect(page.locator(".selected-source")).toContainText(
+      17 |     "Carbon dioxide and water",
+      18 |   );
+        at /Users/ashish/watchread/tests/browser/journey.spec.ts:15:6
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/journey-complete-source-and-recovery-journey-survives-reload-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/journey-complete-source-and-recovery-journey-survives-reload-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/journey-complete-source-and-recovery-journey-survives-reload-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/journey-complete-source-and-recovery-journey-survives-reload-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [chromium] › tests/browser/public-demo.spec.ts:32:1 › public example downloads and restores as a separate editable companion 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "heat-project.json"
+    Received: "404"
+
+      42 |     .click();
+      43 |   const download = await pending;
+    > 44 |   expect(download.suggestedFilename()).toBe("heat-project.json");
+         |                                        ^
+      45 |   await page.goto("/app/new");
+      46 |   await page
+      47 |     .locator('input[accept=".json"]')
+        at /Users/ashish/watchread/tests/browser/public-demo.spec.ts:44:40
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/public-demo-public-example-766ef-separate-editable-companion-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/public-demo-public-example-766ef-separate-editable-companion-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/public-demo-public-example-766ef-separate-editable-companion-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/public-demo-public-example-766ef-separate-editable-companion-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/browser/journey.spec.ts:2:1 › complete source and recovery journey survives reload 
+    [chromium] › tests/browser/public-demo.spec.ts:32:1 › public example downloads and restores as a separate editable companion 
+  2 skipped
+  11 passed (2.6m)

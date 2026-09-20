@@ -1,0 +1,19 @@
+{
+  "createdAt": "2026-09-20T09:45:16.475Z",
+  "source": "local workspace; no Git repository",
+  "deployment": "dpl_42LyC2ZFhchjPbArDZwoFRjpWF4t",
+  "files": {
+    "app/guide/page.tsx": "b9b016907689e6387bf6c1034d6d8cd209b221b0d09fe7fb22a025c323d20537",
+    "app/api/generate/route.ts": "ce83857b45bf632b772ff831577e80623eb94c42931b63cffef2ab3eae5f707b",
+    "app/api/status/route.ts": "27859302657825412f5963a2b04e02379e56565c3ab0720ae5af2b8785047146",
+    "lib/generation.ts": "048f9969df4f6383348d5ae410861c51332154139ba2a44c88d927c6fc53a924",
+    "lib/sample.ts": "7f3d397689797c240f75bebffcd6f920dc9ee3ba0595bf4d1c6ba664d241a391",
+    "components/studio.tsx": "507db9642875ca7c85cc5be474b947e764cea1905f7a3c24fb341646b5f403c9",
+    "components/source-player.tsx": "4fd77f6931e4e45c4f85a5687ccc2860916f235303489d17a47b730a7c7252a5",
+    "components/library.tsx": "1c811c504d2bc87fee8c83156c7cbc5224812aba61f6b5d36f6e376c444687cc",
+    "components/importer.tsx": "eb48ae5fee5dd290de8d6236518ed9268e410aacffa4d3a6804d43c728e5b966",
+    "app/globals.css": "73828d2b675313769517ba0926205bef82ac233d6a72aefa1b10b3faded068c4",
+    ".vercelignore": "250de5a929da3fea3d4a218cf7ee722ad27418914f4f6d6ea01986cf5c43d0d0",
+    "package-lock.json": "2bf31c8f5da1f5bbcc4a461292b2b4e3ba94bf759d0cba9cf0dbc0c4eac45c45"
+  }
+}

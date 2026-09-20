@@ -1,0 +1,386 @@
+{
+  "companion": {
+    "title": "Why a Metal Spoon Feels Colder",
+    "subtitle": "Conduction, temperature versus sensation, and the direction of heat transfer",
+    "chapters": [
+      {
+        "id": "ch1",
+        "title": "Sensation Is Not a Thermometer",
+        "goal": "Explain why two objects at the same temperature can feel different.",
+        "claims": [
+          {
+            "id": "c1",
+            "text": "A metal spoon and a wooden spoon at the same room temperature can still feel different to the touch.",
+            "cueIds": [
+              "cue-1"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 states both spoons can be at the same room temperature and still feel different."
+          },
+          {
+            "id": "c2",
+            "text": "The metal usually feels colder because it moves thermal energy away from a warmer hand more quickly.",
+            "cueIds": [
+              "cue-1",
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-1 gives the faster-transfer explanation; cue-5 links sensation to rate of energy transfer."
+          },
+          {
+            "id": "c3",
+            "text": "Concluding that the metal must be colder simply because it feels colder is not justified.",
+            "cueIds": [
+              "cue-5"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-5 explicitly says the student's conclusion is not justified."
+          },
+          {
+            "id": "c4",
+            "text": "A suitable thermometer, not touch, is the way to test whether the two objects' temperatures actually differ.",
+            "cueIds": [
+              "cue-5",
+              "cue-1"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-5 recommends comparing with a suitable thermometer; cue-1 says feeling cold does not measure temperature."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q1",
+            "concept": "Why a metal spoon feels colder than a wooden one at the same temperature",
+            "question": "A metal spoon and a wooden spoon have sat in the same room for hours. Why does the metal one feel colder?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "The metal is actually at a lower temperature than the wood.",
+                "explanation": "Misconception: the source says both can be at the same room temperature and that feeling cold does not measure temperature.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-5"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "The metal transfers thermal energy away from the hand more quickly.",
+                "explanation": "Correct: the sensation depends on the rate of energy transfer, and metal conducts quickly.",
+                "cueIds": [
+                  "cue-1",
+                  "cue-5"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Cold from the metal flows into the hand.",
+                "explanation": "Misconception: energy flows from the hotter hand to the colder spoon; cold is not a substance that enters the hand.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-1",
+              "cue-5",
+              "cue-4"
+            ],
+            "recovery": {
+              "question": "A student insists the metal spoon is colder because it feels colder. What is the best response?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "Agree, because touch reliably reports temperature."
+                },
+                {
+                  "id": "b",
+                  "text": "Explain that touch reflects the rate of energy transfer, so measure both with a thermometer instead."
+                },
+                {
+                  "id": "c",
+                  "text": "Say the wooden spoon must be warmer because wood stores more heat."
+                }
+              ],
+              "correctId": "b",
+              "explanation": "The sensation depends on how fast energy leaves the hand, not temperature alone; a thermometer settles the question.",
+              "cueIds": [
+                "cue-5",
+                "cue-1"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch2",
+        "title": "Conduction and Conductors",
+        "goal": "Describe thermal conduction and why metals and wood behave differently.",
+        "claims": [
+          {
+            "id": "c5",
+            "text": "Thermal conduction transfers energy through matter without the bulk movement of the material itself.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Definition matches cue-2 verbatim in substance."
+          },
+          {
+            "id": "c6",
+            "text": "Metals are often good thermal conductors, while wood generally conducts heat much more slowly.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 states metals are often good conductors and wood conducts much more slowly."
+          },
+          {
+            "id": "c7",
+            "text": "Because wood conducts slowly, a wooden spoon handle can stay comfortable longer when part of the spoon is in hot liquid.",
+            "cueIds": [
+              "cue-2"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-2 gives this handle example directly."
+          },
+          {
+            "id": "c8",
+            "text": "An insulating glove reduces heat transfer between a hand and an object but does not create heat.",
+            "cueIds": [
+              "cue-6"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-6 states the glove reduces transfer and does not create heat."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q2",
+            "concept": "Why a wooden handle stays comfortable when the spoon is in hot liquid",
+            "question": "Part of a wooden spoon sits in hot soup. Why can its handle stay comfortable to hold longer than a metal one would?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "Wood conducts heat much more slowly than metal.",
+                "explanation": "Correct: slow conduction delays energy reaching the handle.",
+                "cueIds": [
+                  "cue-2"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "Wood absorbs the heat and destroys it.",
+                "explanation": "Misconception: energy is transferred, not destroyed; insulators only slow exchange.",
+                "cueIds": [
+                  "cue-2",
+                  "cue-6"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "Wood stays at the soup's temperature but feels cool anyway.",
+                "explanation": "Misconception: the point is that heat reaches the handle slowly, not that a hot handle feels cool.",
+                "cueIds": [
+                  "cue-2"
+                ]
+              }
+            ],
+            "correctId": "a",
+            "cueIds": [
+              "cue-2",
+              "cue-6"
+            ],
+            "recovery": {
+              "question": "Which property of wood explains why a wooden handle heats up slowly when the other end is hot?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "It is a poor thermal conductor."
+                },
+                {
+                  "id": "b",
+                  "text": "It is a good thermal conductor."
+                },
+                {
+                  "id": "c",
+                  "text": "It generates its own cooling."
+                }
+              ],
+              "correctId": "a",
+              "explanation": "Wood conducts heat slowly, so energy takes longer to travel along the handle.",
+              "cueIds": [
+                "cue-2"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      },
+      {
+        "id": "ch3",
+        "title": "Direction of Heat and Equilibrium",
+        "goal": "Clarify how energy flows between objects and how temperature differs from thermal energy.",
+        "claims": [
+          {
+            "id": "c9",
+            "text": "Energy transfers spontaneously from a hotter object to a colder one when they can exchange heat.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Stated in cue-4."
+          },
+          {
+            "id": "c10",
+            "text": "Heat does not flow because cold is a substance entering the warm object.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-4 rejects cold as a substance entering the warm object."
+          },
+          {
+            "id": "c11",
+            "text": "At thermal equilibrium there is no net heat transfer between two objects.",
+            "cueIds": [
+              "cue-4"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "cue-4 states no net heat transfer at thermal equilibrium."
+          },
+          {
+            "id": "c12",
+            "text": "Temperature describes a thermal state, whereas total internal energy also depends on the amount of material and its properties.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Matches cue-3."
+          },
+          {
+            "id": "c13",
+            "text": "A larger amount of water can hold more internal energy than a smaller amount at the same temperature.",
+            "cueIds": [
+              "cue-3"
+            ],
+            "kind": "paraphrase",
+            "status": "supported",
+            "reason": "Example given in cue-3."
+          }
+        ],
+        "checks": [
+          {
+            "id": "q3",
+            "concept": "Direction of spontaneous heat transfer between a hand and a cooler spoon",
+            "question": "When a warm hand touches a cooler metal spoon, what happens?",
+            "choices": [
+              {
+                "id": "a",
+                "text": "Cold flows from the spoon into the hand.",
+                "explanation": "Misconception: cold is not a substance that flows; energy moves from hot to cold.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              },
+              {
+                "id": "b",
+                "text": "Energy transfers from the hand to the spoon.",
+                "explanation": "Correct: energy spontaneously moves from the hotter hand to the colder spoon.",
+                "cueIds": [
+                  "cue-4",
+                  "cue-1"
+                ]
+              },
+              {
+                "id": "c",
+                "text": "No energy moves because they are already in equilibrium.",
+                "explanation": "Misconception: equilibrium only exists once temperatures are equal; a warmer hand and cooler spoon are not yet in equilibrium.",
+                "cueIds": [
+                  "cue-4"
+                ]
+              }
+            ],
+            "correctId": "b",
+            "cueIds": [
+              "cue-4",
+              "cue-1"
+            ],
+            "recovery": {
+              "question": "Two objects at different temperatures can exchange heat. In which direction does energy spontaneously move?",
+              "choices": [
+                {
+                  "id": "a",
+                  "text": "From the colder object to the hotter object."
+                },
+                {
+                  "id": "b",
+                  "text": "From the hotter object to the colder object."
+                },
+                {
+                  "id": "c",
+                  "text": "Equally in both directions at all times."
+                }
+              ],
+              "correctId": "b",
+              "explanation": "Energy flows spontaneously from hotter to colder until thermal equilibrium, when net transfer stops.",
+              "cueIds": [
+                "cue-4"
+              ]
+            },
+            "status": "supported"
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Thermal conduction",
+        "definition": "Transfer of energy through matter without bulk movement of the material.",
+        "cueIds": [
+          "cue-2"
+        ]
+      },
+      {
+        "term": "Thermal equilibrium",
+        "definition": "The state in which two objects have no net heat transfer between them.",
+        "cueIds": [
+          "cue-4"
+        ]
+      },
+      {
+        "term": "Insulator",
+        "definition": "A material, such as a glove, that reduces heat transfer without creating heat.",
+        "cueIds": [
+          "cue-6"
+        ]
+      }
+    ]
+  },
+  "run": {
+    "id": "a1864d2f-89e9-46e3-b60a-4662041aba70",
+    "provider": "Local Claude",
+    "model": "claude-fable-5-1",
+    "sourceHash": "af00e7fcd96ede31e4d78b679e7ef5670b13253485dc1b566ff3ecab9e460b4c",
+    "promptVersion": "watchread-2",
+    "createdAt": "2026-09-20T08:07:53.874Z",
+    "durationMs": 56881,
+    "inputTokens": 7275,
+    "outputTokens": 4980,
+    "requests": 2,
+    "reviewer": "Model support review; not independent factual verification"
+  }
+}

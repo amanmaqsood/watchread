@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-20T08:34:13.282Z",
+  "environment": "Local production build, installed Google Chrome, fresh context for each run, local server already running",
+  "criterion": "reader heading visible and video readyState >= 2",
+  "runsMs": [
+    548,
+    225,
+    196
+  ],
+  "targetMs": 2000,
+  "passed": true
+}

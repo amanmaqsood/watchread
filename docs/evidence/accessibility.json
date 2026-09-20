@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-20T09:02:56.696Z",
+  "engine": "axe-core automated scan; not a complete accessibility audit",
+  "results": [
+    {
+      "width": 1280,
+      "route": "/",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app/new",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app/photosynthesis/read",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app/photosynthesis/practice",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app/photosynthesis/sources",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "/app/photosynthesis/export",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 1280,
+      "route": "practice-feedback-and-source",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app/new",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app/photosynthesis/read",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app/photosynthesis/practice",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app/photosynthesis/sources",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/app/photosynthesis/export",
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "practice-feedback-and-source",
+      "violations": []
+    }
+  ]
+}
