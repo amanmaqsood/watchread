@@ -1,0 +1,12 @@
+
+Running 5 tests using 1 worker
+
+(node:84775) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/browser/journey.spec.ts:2:1 › complete source and recovery journey survives reload (48.7s)
+  ✓  2 [chromium] › tests/browser/journey.spec.ts:74:1 › mobile reader is usable and opens actual source (10.7s)
+  ✓  3 [chromium] › tests/browser/journey.spec.ts:95:1 › untimed transcript import preserves an honest saved draft when generation is unavailable (8.0s)
+  ✓  4 [chromium] › tests/browser/public-demo.spec.ts:3:1 › first-use tour leads to a complete second prepared lesson (18.0s)
+  ✓  5 [chromium] › tests/browser/public-demo.spec.ts:32:1 › public example downloads and restores as a separate editable companion (12.1s)
+
+  5 passed (1.6m)

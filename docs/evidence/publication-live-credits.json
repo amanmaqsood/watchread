@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-20T10:14:13.259Z",
+  "sourceCommit": "4724ba126400252e22a72a76fb9d623c5b43ce8e",
+  "deployment": "dpl_EvTzGZEugbCPVZLJgGkRVc3KK6Fd",
+  "views": [
+    {
+      "width": 1280,
+      "status": 200,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "violations": []
+    }
+  ],
+  "exportModel": true
+}
